@@ -6,7 +6,7 @@ using RestSharp;
 
 namespace Comar
 {
-    public static class ComarMessageHalper
+    public static class ComarMessageHelper
     {
         public static string ServiceURL { get; set; }
         public static string SlackBotToken { get; set; }
