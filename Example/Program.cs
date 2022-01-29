@@ -9,10 +9,10 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            ComarMessageHalper.Authentication = "123456";
-            ComarMessageHalper.ServiceURL = "http://comar-dev-elb-928123545.eu-central-1.elb.amazonaws.com";
+            ComarMessageHelper.Authentication = "123456";
+            ComarMessageHelper.ServiceURL = "http://comar-dev-elb-928123545.eu-central-1.elb.amazonaws.com";
             //Also, you can set up Slack Bot Token when you initialise the request.
-            //ComarMessageHalper.SlackBotToken = "xb......";
+            //ComarMessageHelper.SlackBotToken = "xb......";
 
 
             AdditionalTextWithButtonsMesssageExample();
@@ -27,7 +27,7 @@ namespace Example
                 Message = "Hello World"
             };
 
-            var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+            var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
             if(IsSuccessful)
                 Console.WriteLine("Message sent successfully");
@@ -42,7 +42,7 @@ namespace Example
                 BlockquoteColor = "#00FF00"
             };
 
-            var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+            var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
             if (IsSuccessful)
                 Console.WriteLine("Message sent successfully");
@@ -61,7 +61,7 @@ namespace Example
                 }
             };
 
-            var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+            var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
             if (IsSuccessful)
                 Console.WriteLine("Message sent successfully");
@@ -81,7 +81,7 @@ namespace Example
                 }
             };
 
-            var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+            var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
             if (IsSuccessful)
                 Console.WriteLine("Message sent successfully");
