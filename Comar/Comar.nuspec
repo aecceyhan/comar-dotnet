@@ -7,8 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <iconUrl>https://avatars.githubusercontent.com/u/92170630</iconUrl>
-    <projectUrl>https://github.com/aecceyhan/Comar</projectUrl>
-    <repository type="git" url="https://github.com/aecceyhan/Comar" />
+    <projectUrl>https://github.com/aecceyhan/comar-dotnet</projectUrl>
+    <repository type="git" url="https://github.com/aecceyhan/comar-dotnet" />
     <description>Helps to send notifications to slack via ComarBot.</description>
     <releaseNotes>First release</releaseNotes>
     <copyright>$copyright$</copyright>
