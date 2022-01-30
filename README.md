@@ -28,7 +28,7 @@ SendMessageResource sendMessageResource = new SendMessageResource
     Message = "Hello World"
 };
 
-var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
 if(IsSuccessful)
     Console.WriteLine("Message sent successfully");
@@ -47,7 +47,7 @@ SendMessageResource sendMessageResource = new SendMessageResource
     BlockquoteColor = "#00FF00"
 };
 
-var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
 if (IsSuccessful)
     Console.WriteLine("Message sent successfully");
@@ -68,7 +68,7 @@ SendMessageResource sendMessageResource = new SendMessageResource
     }
 };
 
-var IsSuccessful = ComarMessageHalper.Ping(sendMessageResource);
+var IsSuccessful = ComarMessageHelper.Ping(sendMessageResource);
 
 if (IsSuccessful)
     Console.WriteLine("Message sent successfully");
